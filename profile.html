@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Site Meta -->
+    <title>Edulogy</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Custom & Default Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <img class="preloader" src="images/loader.gif" alt="">
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+
+    <div id="wrapper">
+        <!-- BEGIN # MODAL LOGIN -->
+        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Begin # DIV Form -->
+                    <div id="div-forms">
+                        <form id="login-form">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span class="flaticon-add" aria-hidden="true"></span>
+                            </button>
+                            <div class="modal-body">
+                                <input class="form-control" type="text" placeholder="What you are looking for?"
+                                    required>
+                            </div>
+                        </form><!-- End # Login Form -->
+                    </div><!-- End # DIV Form -->
+                </div>
+            </div>
+        </div>
+        <!-- END # MODAL LOGIN -->
+
+
+
+ 
+
+            <div class='container-fluid navbar-div mt-2'>
+                <div class="row" style="display:flex">
+                    <div class="col-sm-3 d-flex">
+                        <a href="home.html">
+                            <img src=" images/logo-dark.png" alt="navbar-brand">
+                        </a>
+                        <ul class='navbar-nav collapse navbar-collapse '>
+                            <li style="margin-top:5px" class="nav-item ml-5 nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"> Categories </a>
+                                <ul class="dropdown-menu ct-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Languages</a>
+                                        <ul style="top: -1px;" class="dropdown-menu ct-menu">
+                                            <li><a class="dropdown-item" href="#">English</a></li>
+                                            <li><a class="dropdown-item" href="#">Russian</a></li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Chinese</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">German</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Spanish</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Arabic</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Italian</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Japanese</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">French</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Turkish</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Other
+                                                    Languages</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Math</a>
+                                        <ul style="top: -31px;" class="dropdown-menu ct-menu">
+                                            <li><a class="dropdown-item" href="#">Calculus</a></li>
+                                            <li><a class="dropdown-item" href="#">Statistics</a></li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Linear
+                                                    Algebra</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Algebra</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item"
+                                                    href="#">Probability</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item"
+                                                    href="#">Trigonometry</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Discrete
+                                                    Math</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Geometry</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Other
+                                                    Math</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Science</a>
+                                        <ul style="top: -61px;" class="dropdown-menu ct-menu">
+                                            <li><a class="dropdown-item" href="#">Chemistry</a></li>
+                                            <li><a class="dropdown-item" href="#">Physics</a></li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Biology</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item"
+                                                    href="#">Literature</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Economics</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Law</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">History</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Geography</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Other
+                                                    Science</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Development</a>
+                                        <ul style="top: -91px;" class="dropdown-menu ct-menu">
+                                            <li><a class="dropdown-item" href="#">Web Development</a></li>
+                                            <li><a class="dropdown-item" href="#">Frontend Developer</a></li>
+                                            <li><a class="dropdown-item" href="#">Backend Developer</a></li>
+                                            <li><a class="dropdown-item" href="#">Mobile Development</a></li>
+                                            <li><a class="dropdown-item" href="#">Game Development</a></li>
+                                            <li><a class="dropdown-item" href="#">Computer Science</a></li>
+                                            <li><a class="dropdown-item" href="#">Database Design & Development</a></li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Software
+                                                    Development</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Other
+                                                    Development</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Data Science</a>
+                                        <ul style="top: -121px;" class="dropdown-menu ct-menu">
+                                            <li><a class="dropdown-item" href="#">Artificial Intelligence</a></li>
+                                            <li><a class="dropdown-item" href="#">Data Science</a></li>
+                                            <li><a class="dropdown-item" href="#">Data Analytics</a></li>
+                                            <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Deep
+                                                    Learning</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item "
+                                                    href="#">TensorFlow</a></li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Regression
+                                                    Analysis</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Python</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Hadoop</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Other Data
+                                                    Science</a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Programming
+                                            Languages</a>
+                                        <ul style="top: -151px;" class="dropdown-menu ct-menu">
+                                            <li><a class="dropdown-item" href="#">Python</a></li>
+                                            <li><a class="dropdown-item" href="#">Javascript</a></li>
+                                            <li><a class="dropdown-item" href="#">Java</a></li>
+                                            <li><a class="dropdown-item" href="#">C++</a></li>
+                                            <li><a class="dropdown-item" href="#">C#</a></li>
+                                            <li><a class="dropdown-item" href="#">Go</a></li>
+                                            <li><a class="dropdown-item" href="#">R</a></li>
+                                            <li><a class="dropdown-item" href="#">PHP</a></li>
+                                            <li><a class="dropdown-item" href="#">Swift</a></li>
+                                            <li><a class="dropdown-item" href="#">Kotlin</a></li>
+                                            <li><a class="dropdown-item" href="#">Dart</a></li>
+                                            <li><a class="dropdown-item" href="#">Other Programming Languages</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">IT & Networking</a>
+                                        <ul style="top: -181px;" class="dropdown-menu ct-menu">
+                                            <li><a class="dropdown-item" href="#">Network & Security</a></li>
+                                            <li><a class="dropdown-item" href="#">IT Certifications</a></li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Operaing
+                                                    System &
+                                                    Servers</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Database
+                                                    Administration</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Ethical
+                                                    Hacking</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Microsoft
+                                                    Office</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Matlab</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Adobe
+                                                    Software</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Other IT &
+                                                    Networking</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Business</a>
+                                        <ul style="top: -211px;" class="dropdown-menu ct-menu">
+                                            <li><a class="dropdown-item" href="#">Enterprenuership</a></li>
+                                            <li><a class="dropdown-item" href="#">Business Strategy</a></li>
+                                            <li><a class="dropdown-item" href="#">Business Analytics & Intelligence</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Business Modelling</a></li>
+                                            <li><a class="dropdown-item" href="#">International Business</a></li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item "
+                                                    href="#">E-commerce</a></li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Sales</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Other
+                                                    Business</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Marketing</a>
+                                        <ul style="top: -241px;" class="dropdown-menu ct-menu">
+                                            <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                                            <li><a class="dropdown-item" href="#">Search Engine Optimization</a></li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Sosial Media
+                                                    Marketing</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Marketing
+                                                    Strategy</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Branding</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Marketing
+                                                    Fundemental</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Content
+                                                    Marketing</a>
+                                            </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Other
+                                                    Marketing</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu"><a href="#" class="dropdown-item">Finance &
+                                            Accounting</a>
+                                        <ul style="top: -271px;" class="dropdown-menu ct-menu">
+                                            <li><a class="dropdown-item" href="#">Accounting & Bookkepping</a></li>
+                                            <li><a class="dropdown-item " href="#">Economics</a></li>
+                                            <li><a class="dropdown-item" href="#">Finance</a></li>
+                                            <li><a class="dropdown-item" href="#">Management</a></li>
+                                            <li><a class="dropdown-item" href="#">Business Management</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">IT Project Management</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Product Management</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Other Finance &
+                                                    Accounting</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu"><a href='#' class="dropdown-item">Design</a>
+                                        <ul style="top: -301px;" class="dropdown-menu ct-menu">
+                                            <li><a class="dropdown-item" href="#">Web Design</a></li>
+                                            <li><a class="dropdown-item" href="#">UX & UI</a></li>
+                                            <li><a class="dropdown-item" href="#">Design Tools</a></li>
+                                            <li><a class="dropdown-item" href="#">3D & Animation</a></li>
+                                            <li><a class="dropdown-item" href="#">Artitectual Design</a></li>
+                                            <li><a class="dropdown-item" href="#">Graphic Design</a></li>
+                                            <li><a class="dropdown-item" href="#">Motion Design</a></li>
+                                            <li><a class="dropdown-item" href="#">Other Design</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu"><a href='#' class="dropdown-item">Humanities & Sosial
+                                            Science</a>
+                                        <ul style="top: -331px;" class="dropdown-menu ct-menu">
+                                            <li><a class="dropdown-item" href="#">Psychology</a></li>
+                                            <li><a class="dropdown-item" href="#">Sociology</a></li>
+                                            <li><a class="dropdown-item" href="#">Philosophy</a></li>
+                                            <li><a class="dropdown-item" href="#">Psychology</a></li>
+                                            <li><a class="dropdown-item" href="#">Copywriting</a></li>
+                                            <li><a class="dropdown-item" href="#">Writing</a></li>
+                                            <li><a class="dropdown-item" href="#">Public speaking</a></li>
+                                            <li><a class="dropdown-item" href="#">Other Humanities & Sosial Science</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu"><a href='#' class="dropdown-item">Art & Music</a>
+                                        <ul style="top: -361px;" class="dropdown-menu ct-menu">
+                                            <li><a class="dropdown-item" href="#">Arts</a></li>
+                                            <li><a class="dropdown-item" href="#">Music</a></li>
+                                            <li><a class="dropdown-item" href="#">Acting skills</a></li>
+                                            <li><a class="dropdown-item" href="#">Photography</a></li>
+                                            <li><a class="dropdown-item" href="#">Other Art & Music</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 form-div">
+
+                        <form class="form-inline mt-1 my-2 my-lg-0">
+                            <input class="form-control search-input" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <a class='search-icon' href="#">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </form>
+
+                    </div>
+                    <div class="col-2 nav-side" style="margin-left:auto;margin-right:5px">
+                        <div class="w3-sidebar w3-bar-block w3-dark w3-animate-right" style="display:none"
+                            id="mySidebar">
+                            <button class="w3-bar-item w3-button w3-large" style="width: auto;"
+                                onclick="w3_close()">&#9776;</button>
+                            <a style="padding:15px;position:relative;top:15px;" class="nav-link btn-links"
+                                href="/login.html">
+                                Login
+                            </a>
+                            <a href="/cours.html" style="margin-top:30px;" class="w3-bar-item w3-button">Categories</a>
+                            <a href="/teachers.html" class="w3-bar-item w3-button">Teachers</a>
+                            <a href="/blog.html" class="w3-bar-item w3-button">Blogs</a>
+                            <a href="/page-contact.html" class="w3-bar-item w3-button">Contact</a>
+                            <div class='side-menu-footer'>
+                                <button onclick="toogle()" id="mood" class="btn-outline-dark"><span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" id="moon"
+                                            height="25px" viewBox="0 0 512 512" width="25px">
+                                            <path
+                                                d="m497.139 291.079a7.955 7.955 0 0 0 -9.837 2.9 206.2 206.2 0 0 1 -173.135 90.951c-55.12-.455-106.666-22.053-145.144-60.814a203.685 203.685 0 0 1 5.723-292.736 8.012 8.012 0 0 0 -8.44-13.3 248.158 248.158 0 0 0 -113.071 90.186 246.145 246.145 0 0 0 30.28 314.794c46.813 46.069 109.046 71.44 175.232 71.44a250.283 250.283 0 0 0 157.1-55.5 247.629 247.629 0 0 0 85.963-138.863 7.909 7.909 0 0 0 -4.671-9.058zm-88.847 138.6a238.246 238.246 0 0 1 -149.545 52.821c-63.018 0-122.261-24.147-166.815-67.994a234.141 234.141 0 0 1 -28.811-299.437 236.089 236.089 0 0 1 88.738-77.364 215.841 215.841 0 0 0 8.648 294.862c40.721 41.021 95.257 63.878 153.56 64.36.617 0 1.226.008 1.842.008a218.123 218.123 0 0 0 168.911-79.57 236.207 236.207 0 0 1 -76.528 112.31z" />
+                                        </svg>
+                                    </span></button>
+                                <a class="nav-link dropbtn" style="padding-top: 10px;" id="cart" href=" my-cart.html">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-cart" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                    </svg>
+                                    <span id='budget'>
+                                        1
+                                    </span>
+                                </a>
+
+
+                            </div>
+                        </div>
+
+                        <div>
+                            <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-5 nav-div pl-0">
+                        <ul class='navbar-nav pl-0 collapse navbar-collapse '>
+                            <li style="    padding-top:10px;" class="nav-item">
+                                <a class="nav-link" href="coursev1.html">Courses</a>
+                            </li>
+                            <li style="    padding-top:10px;" class="nav-item">
+                                <a class="nav-link" href="teachers.html">Teachers</a>
+                            </li>
+                            <li style="    padding-top:10px;" class="nav-item">
+                                <a class="nav-link" href=" blog.html">Blogs</a>
+                            </li>
+                            <li style="    padding-top:10px;" class="nav-item">
+                                <a class="nav-link" href=" page-contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <button onclick="toogle()" id="mood" class="btn-outline-dark"><span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" id="moon"
+                                            height="25px" viewBox="0 0 512 512" width="25px">
+                                            <path
+                                                d="m497.139 291.079a7.955 7.955 0 0 0 -9.837 2.9 206.2 206.2 0 0 1 -173.135 90.951c-55.12-.455-106.666-22.053-145.144-60.814a203.685 203.685 0 0 1 5.723-292.736 8.012 8.012 0 0 0 -8.44-13.3 248.158 248.158 0 0 0 -113.071 90.186 246.145 246.145 0 0 0 30.28 314.794c46.813 46.069 109.046 71.44 175.232 71.44a250.283 250.283 0 0 0 157.1-55.5 247.629 247.629 0 0 0 85.963-138.863 7.909 7.909 0 0 0 -4.671-9.058zm-88.847 138.6a238.246 238.246 0 0 1 -149.545 52.821c-63.018 0-122.261-24.147-166.815-67.994a234.141 234.141 0 0 1 -28.811-299.437 236.089 236.089 0 0 1 88.738-77.364 215.841 215.841 0 0 0 8.648 294.862c40.721 41.021 95.257 63.878 153.56 64.36.617 0 1.226.008 1.842.008a218.123 218.123 0 0 0 168.911-79.57 236.207 236.207 0 0 1 -76.528 112.31z" />
+                                        </svg>
+
+
+                                    </span></button>
+                            </li>
+                            <li style="padding-top:10px;" class="nav-item dropdown">
+                                <div class="dropdown">
+                                    <a class="nav-link dropbtn" id="cart" href=" my-cart.html">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                            fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                        </svg>
+                                        <span id='budget'>
+                                            1
+                                        </span>
+                                    </a>
+                                    <div class="dropdown-content">
+                                        <a href="#">
+                                            <div class='cart-container'>
+                                                <div class="image-course"></div>
+                                                <h4>Title of Course
+                                                    <br>
+                                                    <small>3.89 AZN</small>
+                                                </h4>
+                                            </div>
+                                        </a>
+                                        <hr class="invis">
+                                        <a href='my-cart.html'>
+                                            <h4>TOTAL: <span>3.89 AZN</span></h4>
+                                            <button style="margin-left:0;padding:15px;" class='btn-links btn-block'>
+                                                Go to Cart
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li style="    padding-top:10px;" class="nav-item">
+                                <div class="dropdown">
+                                    <a href="#" class='dropbtn'>
+                                        <div class="profile-div">
+                                            <h1 style="margin: 0px;text-align:center">A</h1>
+                                        </div>
+                                    </a>
+                                    <div style="left: -100px;width: 200px;" class="dropdown-content">
+                                        <a href="/my-cours.html">
+                                            <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-border-width" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-2zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z" />
+                                                </svg></span> My Courses
+                                        </a>
+                                        <a href="/my-cours.html">
+                                            <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                                                </svg></span> Profile
+                                        </a>
+
+                                        <a href='/settings.html'>
+                                            <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
+                                                    <path
+                                                        d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
+                                                </svg></span> Settings
+                                        </a>
+                                        <a href='#'>
+                                            <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-box-arrow-left"
+                                                    viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z" />
+                                                    <path fill-rule="evenodd"
+                                                        d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z" />
+                                                </svg></span> Logout
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <section class="section lb p120">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tagline-message page-title text-left">
+                                <h3>Profile</h3>
+
+                            </div>
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </section><!-- end section -->
+
+
+            <section style="padding:4rem 0;" class='section gb '>
+                <div class="container">
+                    <div class="boxed boxedp4">
+                    <div style="margin-bottom:25px;" class="row text-center">
+                        <img src='/upload/03_team.png' class='col-12 text-center profile-div' style="width:300px;height:300px;">
+                    </div>
+                    <div style='width:500px;margin-left:25%'>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Name</label>
+                                <input type="email" class="form-control st" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" value='asd'>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail3">Surname</label>
+                                <input type="email" class="form-control st" id="exampleInputEmail2"
+                                    aria-describedby="emailHelp" value='asd'>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail3">Username</label>
+                                <input type="email" class="form-control st" id="exampleInputEmail3"
+                                    aria-describedby="emailHelp" value='asd'>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail4">Email address</label>
+                                <input type="email" class="form-control st" id="exampleInputEmail4"
+                                    aria-describedby="emailHelp" value='asd@gmail.com'>
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+
+
+
+                </div>
+
+            </section>
+            <footer class="footer">
+
+                <div class="copyrights">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="clearfix">
+                                    <div class="pull-left">
+                                        <div class="cop-logo">
+                                            <a href="#"><img src="images/logo.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3">
+                                <div class="widget clearfix">
+                                    <h3 class="widget-title">Popular Tags</h3>
+                                    <div class="tags-widget">
+                                        <ul class="list-inline">
+                                            <li><a href="#">course</a></li>
+                                            <li><a href="#">web design</a></li>
+                                            <li><a href="#">development</a></li>
+                                            <li><a href="#">language</a></li>
+                                            <li><a href="#">teacher</a></li>
+                                            <li><a href="#">speaking</a></li>
+                                            <li><a href="#">material</a></li>
+                                            <li><a href="#">css3</a></li>
+                                            <li><a href="#">html</a></li>
+                                            <li><a href="#">learning</a></li>
+                                        </ul>
+                                    </div><!-- end list-widget -->
+                                </div><!-- end widget -->
+                            </div><!-- end col -->
+
+                            <div class="col-lg-2 col-md-2">
+                                <div class="widget clearfix">
+                                    <h3 class="widget-title">Support</h3>
+                                    <div class="list-widget">
+                                        <ul>
+                                            <li><a href="#">Terms of Use</a></li>
+                                            <li><a href="#">Copyrights</a></li>
+                                            <li><a href="#">Pricing & Plans</a></li>
+                                        </ul>
+                                    </div><!-- end list-widget -->
+                                </div><!-- end widget -->
+                            </div><!-- end col -->
+
+                            <div class="col-lg-2 col-md-2">
+                                <div class="widget clearfix">
+                                    <h3 class="widget-title">Social Medias</h3>
+                                    <div class="social">
+                                        <a class="facebook" href="#" data-tooltip="tooltip" data-placement="bottom"
+                                            title="Facebook"><i class="fa fa-facebook"></i></a>
+                                        <a class="linkedin" href="#" data-tooltip="tooltip" data-placement="bottom"
+                                            title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                                        <a class="linkedin" href="#" data-tooltip="tooltip" data-placement="bottom"
+                                            title="Linkedin"><i class="fa fa-instagram"></i></a>
+                                        <a class="linkedin" href="#" data-tooltip="tooltip" data-placement="bottom"
+                                            title="Linkedin"><i class="fa fa-twitter"></i></a>
+                                    </div><!-- end social -->
+                                </div><!-- end widget -->
+                            </div><!-- end col -->
+                        </div><!-- end row -->
+                    </div><!-- end container -->
+                </div><!-- end copy -->
+            </footer>
+    </div>
+
+            <!-- jQuery Files -->
+            <script src="js/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/animate.js"></script>
+            <script src="js/bootstrap-select.min.js"></script>
+            <script src="js/custom.js"></script>
+            <script src="js/theme.js"></script>
+
+</body>
+
+</html>

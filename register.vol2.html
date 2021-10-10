@@ -1,0 +1,109 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div class="main">
+        <!-- Sign up form -->
+        <section class="signup" style="padding-top: 10 px;">
+            <div class="container">
+                <a id="ev" href="/"><i class="fas fa-home" style="color:black"></i></a>
+
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Sign up</h2>
+
+                        <form method="POST" active="#" class="register-form" id="register-form"><input type="hidden"
+                                name="csrfmiddlewaretoken"
+                                value="nwbK4iT4HD37ZR8kmcXQGiy9RY4eDhkopRlL7myekG4WJ3ubs5Q8GcleRR2hJRTU">
+                            <div class="form-group">
+                               
+                                <input type="text" name="first_name" id="your_firstname" placeholder="First name"
+                                    required="">
+                            </div>
+
+                            <div class="form-group">
+                                
+                                <input type="text" name="last_name" id="your_lastname" placeholder="Last name"
+                                    required="">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="username" id="name" placeholder="your user name" autofocus=""
+                                    required="">
+                            </div>
+                            <div
+                                style="border-style: none;  border-radius:5px;  border-color: #f5c6cb; background-color: #f5c6cb ;">
+                                <h5 style="color: #721c24;"></h5>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="email" name="email" id="email" placeholder="your mail" required="">
+                            </div>
+                            <div
+                                style="border-style: none;  border-radius:5px;  border-color: #f5c6cb; background-color: #f5c6cb ;">
+                                <h5 style="color: #721c24;"></h5>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="password1" id="pass" placeholder="your password"
+                                    required="">
+                            </div>
+
+                            <div
+                                style="border-style: none;  border-radius:5px;  border-color: #f5c6cb; background-color: #f5c6cb ;">
+                                <h5 style="color: #721c24;"></h5>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="password" name="password2" id="re_pass" placeholder="Repeat your password"
+                                    required="">
+                            </div>
+                            <div
+                                style="border-style: none;  border-radius:5px;  border-color: #f5c6cb; background-color: #f5c6cb ;">
+                                <h5 style="color: #721c24;"></h5>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="checkbox" name="agree-term" id="agree-term" class="agree-term">
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all
+                                    statements in <a href="#" class="term-service">Terms of service</a></label>
+                            </div>
+
+                            <div class="form-group form-button" style="padding-bottom: 25px;">
+                                <input type="submit" name="signup" id="signup" class="form-submit" value="Register">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="/images/signup-image.jpg" alt="sing up image"></figure>
+                        <a href="/logibv2.html" class="signup-image-link">I am already member</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JS -->
+    <script src="js/jquery.min.js"></script>
+
+
+</body>
+
+</html>
